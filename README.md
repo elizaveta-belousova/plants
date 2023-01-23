@@ -1,4 +1,4 @@
 Сверстанный, адаптивный сайт на ширину экрана - >1220px, 768px, 380px 
 с добавлением JavaScript:
 
-https://github.com/elizaveta-belousova/plants.git
+https://elizaveta-belousova.github.io/plants/

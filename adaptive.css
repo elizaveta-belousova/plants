@@ -1,0 +1,322 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 680px;
+  }
+
+  h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .image-leafs {
+    order: 2;
+  }
+
+  .content {
+    align-items: flex-start;
+  }
+
+  .content-banner {
+    order: 1;
+  }
+
+  .content-banner p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .content-ex {
+    flex-direction: column;
+  }
+
+  .exposithion {
+    padding-top: 40px;
+  }
+
+  .exposithion-capthion h2{
+    text-align: center;
+    font-size: 35px;
+    line-height: 46px;
+  
+  }
+  
+  .content-exposithion p {
+    padding-bottom: 40px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .content-exposithion p br{
+    display: none;
+  }
+
+  .image-houseplant {
+    width: 37%;
+  }
+
+  .image-houseplant img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container-basic {
+    gap: 40px;
+  }
+
+  .container-service {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .service-capthion h2{
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .service-card {
+    width: 280px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+   .image-card img{
+    width: 100%;
+   }
+  
+  .text-card {
+    padding: 0 20px;
+  }
+  
+  .head-price{
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .right-part {
+    padding-top: 95px;
+    gap: 25px;
+  }
+
+  .description {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .image-price {
+    width: 55%;
+  }
+  
+  .image-price img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-contacts {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 250px;
+  }
+
+  .title-contacts {
+    text-align: center;
+  }
+
+  .right-contacts {
+    gap: 100px;
+  }
+
+  .image-woman {
+    width: 30%;
+  }
+
+  .image-woman img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+@media screen and (max-width: 380px) {
+  .container {
+    width: 100%;
+    max-width: 330px;
+  }
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu-button:hover ~ ul {
+    display: block;
+  }
+
+  .menu ul {
+    display: none;
+  }
+
+  .banner {
+    padding-top: 23px;
+    padding-bottom: 24px;
+  }
+
+  .content-banner h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .content-banner p {
+    margin-bottom: 20px;
+  }
+
+  .content-banner p br{
+    display: none;
+  }
+
+  .image-leafs {
+    display: none;
+  }
+
+  .exposithion {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .exposithion-capthion {
+    margin-bottom: 22px;
+  }
+
+  .exposithion-capthion h2{
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .exposithion-capthion p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .content-exposithion p{
+    padding-bottom: 0px;
+  }
+
+  .image-houseplant {
+    width: 45%;
+  }
+  
+  .service {
+    padding-top: 30px;
+    padding-bottom: 27px;
+  }
+
+  .service-capthion h2{
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .service-buttons {
+    gap: 10px;
+  }
+
+  .service-buttons button {
+    width: 121px;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px 28px;
+  }
+
+  .container-service-cards {
+    row-gap: 34px;
+    justify-content: center;
+  }
+
+  .content-prices {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .left-part {
+    gap: 40px;
+  }
+
+  .head-price {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .selecthion-prices {
+    padding: 29px 22px;
+    gap: 14px;
+    width: 180px;
+  }
+
+  .basic {
+    padding: 16px 40px 16px 30px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .right-part {
+    padding-top: 19px;
+    gap: 14px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .right-part button {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px 22px;
+  }
+
+  .image-price {
+    display: none;
+  }
+
+  .content-contacts {
+    padding-top: 25px;
+    gap: 132px;
+  }
+
+  .right-contacts {
+    width: 300px;
+    gap: 80px;
+  }
+
+  .title-contacts {
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .container-slider-contacts {
+    padding: 5px 20px;
+  }
+
+  .image-woman {
+    width: 31%;
+  }
+
+  .content-banner button {
+    padding: 8px 18px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}

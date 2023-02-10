@@ -47,10 +47,14 @@
   
   }
   
+  .content-exposithion {
+    width: 100%;
+  }
+
   .content-exposithion p {
     padding-bottom: 40px;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .content-exposithion p br{
@@ -81,7 +85,7 @@
   }
 
   .service-card {
-    width: 280px;
+    width: 48%;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -129,6 +133,7 @@
   }
 
   .right-contacts {
+    width: 66%;
     gap: 100px;
   }
 

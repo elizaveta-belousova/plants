@@ -156,6 +156,10 @@ button:hover {
   margin-bottom: 40px;
 }
 
+.content-exposithion {
+  width: 50%;
+}
+
 .content-exposithion p{
   font-family: 'Inter';
   font-style: normal;
@@ -225,6 +229,11 @@ button:hover {
   padding-bottom: 36px;
   border: 1px solid #E3E1D5;
   border-radius: 20px;
+  width: 27%;
+}
+
+.image-card {
+  width: 100%;
 }
 
 .image-card img{
@@ -361,7 +370,7 @@ button:hover {
 }
 
 .right-contacts {
-  width: 450px;
+  width: 38%;
   display: flex;
   flex-direction: column;
   gap: 33px;

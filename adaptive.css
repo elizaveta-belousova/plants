@@ -1,7 +1,56 @@
+@media screen and (max-width: 984px) {
+
+  .image-leafs {
+    order: 2;
+    width: 42%;
+  }
+
+  h2 {
+    white-space: nowrap;
+  }
+
+  .container-service {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .service-card {
+    width: 29%;
+  }
+
+}
+
+@media screen and (max-width: 885px) { 
+
+  .right-part {
+    padding-top: 95px;
+    gap: 25px;
+  }
+  
+  .description {
+    font-size: 29px;
+  }
+
+  .content-ex {
+    flex-direction: column;
+  }
+
+  .exposithion-capthion {
+    text-align: center;
+  }
+
+  .image-houseplant {
+    width: 38%;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
-    max-width: 680px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
   h1 {
@@ -10,10 +59,7 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
-  }
-
-  .image-leafs {
-    order: 2;
+    margin-bottom: 30px;
   }
 
   .content {
@@ -30,6 +76,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
+    margin-bottom: 30px;
   }
 
   .content-ex {
@@ -41,10 +88,8 @@
   }
 
   .exposithion-capthion h2{
-    text-align: center;
     font-size: 35px;
     line-height: 46px;
-  
   }
   
   .content-exposithion {
@@ -61,10 +106,6 @@
     display: none;
   }
 
-  .image-houseplant {
-    width: 37%;
-  }
-
   .image-houseplant img {
     width: 100%;
     height: auto;
@@ -74,18 +115,18 @@
     gap: 40px;
   }
 
-  .container-service {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
+  .service {
+    padding-top: 60px;
+    padding-bottom: 70px;
   }
+
   .service-capthion h2{
     font-size: 35px;
     line-height: 46px;
   }
 
   .service-card {
-    width: 48%;
+    width: 42%;
     text-align: center;
     padding-bottom: 20px;
   }
@@ -126,6 +167,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 250px;
+    width: 100%;
   }
 
   .title-contacts {
@@ -148,11 +190,29 @@
 
 }
 
+@media screen and (max-width: 740px) {
 
-@media screen and (max-width: 380px) {
-  .container {
-    width: 100%;
-    max-width: 330px;
+  .content-prices {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-part {
+    padding-top: 60px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-price {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+
+  .menu ul {
+    display: none;
   }
 
   .menu-button {
@@ -160,14 +220,88 @@
     align-items: center;
     justify-content: space-between;
   }
-
+  
   .menu-button:hover ~ ul {
     display: block;
   }
 
-  .menu ul {
+  .content-banner {
+    flex-basis: 100%;
+  }
+
+}
+
+@media screen and (max-width: 603px) {
+  .service-card {
+    width: 43%;
+  }
+
+  .right-contacts {
+    flex-basis: 66%;
+  }
+}
+
+@media screen and (max-width: 476px) {
+  
+  .image-leafs {
     display: none;
   }
+
+  h2 {
+    white-space: normal;
+  }
+
+  .right-contacts {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 469px) {
+
+  .exposithion-capthion h2 {
+    font-size: 32px;
+  }
+
+  .content-exposithion p {
+    font-size: 18px;
+  }
+
+  .service-capthion h2 {
+    font-size: 32px;
+  }
+
+  .service-buttons {
+    gap: 15px;
+  }
+
+  .service-buttons button {
+    width: 40%;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .service-card {
+    width: 100%;
+  }
+
+  .caption-card {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .text-card {
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0;
+  }
+
+  .right-contacts {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  
 
   .banner {
     padding-top: 23px;
@@ -179,17 +313,13 @@
     line-height: 35px;
     margin-bottom: 20px;
   }
+  
+  .content-banner {
+    flex-basis: content;
+  }
 
   .content-banner p {
     margin-bottom: 20px;
-  }
-
-  .content-banner p br{
-    display: none;
-  }
-
-  .image-leafs {
-    display: none;
   }
 
   .exposithion {
@@ -213,6 +343,8 @@
 
   .content-exposithion p{
     padding-bottom: 0px;
+    font-size: 15px;
+    line-height: 25px;
   }
 
   .image-houseplant {
@@ -243,6 +375,7 @@
   .container-service-cards {
     row-gap: 34px;
     justify-content: center;
+
   }
 
   .content-prices {
@@ -265,7 +398,7 @@
   .selecthion-prices {
     padding: 29px 22px;
     gap: 14px;
-    width: 180px;
+    width: 90%;
   }
 
   .basic {
@@ -302,7 +435,6 @@
   }
 
   .right-contacts {
-    width: 300px;
     gap: 80px;
   }
 

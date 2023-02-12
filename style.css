@@ -8,7 +8,7 @@ h1{
   font-style: normal;
   font-weight: 700;
   color: #717171;
-  font-size: 45px;
+  font-size: 43px;
   margin-bottom: 42px;
   line-height: 50px;
 }
@@ -45,9 +45,11 @@ button:hover {
 
 .container{
   width: 100%;
-  max-width: 1220px;
+  max-width: 1320px;
   margin: 0 auto;
   box-sizing: border-box;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 
 .content {
@@ -69,7 +71,7 @@ button:hover {
 }
 
 .image-leafs {
-  width: 30%;
+  width: 36%;
 }
 
 .image-leafs img {
@@ -101,6 +103,7 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-right: 46px;
 }
 
 .menu-button {
@@ -129,12 +132,17 @@ button:hover {
   font-weight: 400;
   font-size: 16px;
   line-height: 50px;
+  white-space: nowrap;
 }
 
 .banner {
   background-color: #EDF2EC;
   padding-top: 62px;
   padding-bottom: 62px;
+}
+
+.content-banner {
+  flex-basis: 49%;
 }
 
 .content-banner p {
@@ -157,7 +165,7 @@ button:hover {
 }
 
 .content-exposithion {
-  width: 50%;
+  flex-basis: 50%;
 }
 
 .content-exposithion p{
@@ -167,6 +175,9 @@ button:hover {
   font-size: 20px;
   line-height: 30px;
   color: #636060;
+}
+.image-houseplant {
+  flex-basis: 38%;
 }
 
 .image-houseplant img {
@@ -219,6 +230,7 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 55px;
+  text-align: center;
 }
 
 .service-card {
@@ -348,10 +360,7 @@ button:hover {
   font-weight: 700;
   font-size: 40px;
   line-height: 50px;
-}
-
-.image-price {
-  width: 34%;
+  white-space: nowrap;
 }
 
 .image-price img {
@@ -370,10 +379,10 @@ button:hover {
 }
 
 .right-contacts {
-  width: 38%;
   display: flex;
   flex-direction: column;
   gap: 33px;
+  flex-basis: 37%;
 }
 
 .container-slider-contacts {

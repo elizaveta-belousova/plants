@@ -211,19 +211,45 @@
 
 @media screen and (max-width: 660px) {
 
-  .menu ul {
+  .menu-list {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #EDF2EC;
+    padding: 140px 70px 157px 70px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .menu-show {
+    display: block;
+  }
+
+  .menu-link {
+    display: block;
+    font-size: 19px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .menu-button {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 40px;
+    height: 26px;
+    flex-direction: column;
+    z-index: 2;
+  }
+
+  .menu-button span {
+    width: 90%;
+    height: 2px;
+    background: #717171;
   }
   
-  .menu-button:hover ~ ul {
-    display: block;
-  }
+  
 
   .content-banner {
     flex-basis: 100%;
@@ -238,6 +264,15 @@
 
   .right-contacts {
     flex-basis: 66%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .image-leafs{
+    display: none;
+  }
+  .menu-list {
+    padding-bottom: 131px;
   }
 }
 

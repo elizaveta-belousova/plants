@@ -38,11 +38,6 @@ button {
   font-weight: 400;
 }
 
-button:hover {
-  background-color: #E06733;
-  color: #F5F5F5;
-}
-
 .container{
   width: 100%;
   max-width: 1320px;
@@ -141,6 +136,11 @@ button:hover {
   color: #636060;
 }
 
+.content-banner button:hover {
+  background-color: #E06733;
+  color: #F5F5F5;
+}
+
 .exposithion {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -207,8 +207,13 @@ button:hover {
   line-height: 26px;
 }
 
-.service-buttons button:hover {
-  color:#F5F5F5;
+.service-buttons button.active {
+  background-color: #E06733;
+  color: #ffffff;
+}
+
+.active-card {
+  filter : blur(2px);
 }
 
 .container-service-cards {

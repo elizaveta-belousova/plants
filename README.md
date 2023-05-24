@@ -1,4 +1,4 @@
 Адаптивный сайт про растения
-с добавлением JavaScript:
+с использованием чистого JavaScript:
 
 https://elizaveta-belousova.github.io/plants/
